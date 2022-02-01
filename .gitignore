@@ -1,0 +1,4 @@
+.vs/
+*.pyc
+*ipynb_checkpoints*
+*wandb*
