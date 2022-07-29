@@ -33,7 +33,7 @@ To run the experiments from the paper, you can use the parametrizations below. A
 
 **CardioVascular data set**
 
-`python train_model.py --N_ts=1000 --batch_size=64 --continuous_treatment=True --dataset_name=covid --embedding_dim=64 --gamma=10 --horizon=10 --kl_param=0.001 --logger_type=wandb --max_epochs=2000 --num_samples=5 --propensity_scores=False --seed=44 --sigma_sde=0.1 --std_dev=False --variational=True`
+`python train_model.py --N_ts=1000 --batch_size=64 --continuous_treatment=True --dataset_name=cv --embedding_dim=64 --gamma=10 --horizon=10 --kl_param=0.001 --logger_type=wandb --max_epochs=2000 --num_samples=5 --propensity_scores=False --seed=44 --sigma_sde=0.1 --std_dev=False --variational=True`
 
 **Dexamethasone data set**
 
